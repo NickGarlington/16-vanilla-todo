@@ -1,0 +1,87 @@
+.container {
+  padding-top: 10px;
+  font-family: Helvetica;
+  background-color: #77c4a8;
+  width: 300px;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 3px; }
+
+input {
+  line-height: 1.9rem;
+  width: 60%;
+  border-radius: 5px;
+  font-size: 1.2rem; }
+
+button {
+  background-color: #aaa;
+  color: white;
+  border-radius: 5px;
+  line-height: 1.5rem;
+  font-size: 1.2rem; }
+
+#toDoList {
+  margin-top: 10px;
+  border-top: 1px solid #aaa; }
+
+.todoEntry {
+  background-color: #9ed3c0;
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #555;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.completed {
+  text-decoration: line-through; }
+
+div:nth-child(even) {
+  background-color: #77c4a8; }
+
+.container {
+  padding-top: 10px;
+  font-family: Helvetica;
+  background-color: #77c4a8;
+  width: 300px;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 3px; }
+
+input {
+  line-height: 1.9rem;
+  width: 60%;
+  border-radius: 5px;
+  font-size: 1.2rem; }
+
+button {
+  background-color: #aaa;
+  color: white;
+  border-radius: 5px;
+  line-height: 1.5rem;
+  font-size: 1.2rem; }
+
+#toDoList {
+  margin-top: 10px;
+  border-top: 1px solid #aaa; }
+
+.todoEntry {
+  background-color: #9ed3c0;
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #555;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.completed {
+  text-decoration: line-through; }
+
+div:nth-child(even) {
+  background-color: #77c4a8; }

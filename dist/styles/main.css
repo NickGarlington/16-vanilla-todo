@@ -1,33 +1,42 @@
-.container {
-  padding-top: 10px;
-  font-family: Helvetica;
-  background-color: #77c4a8;
-  width: 300px;
-  display: table;
-  margin: 0 auto;
-  text-align: center;
-  border: 1px solid #aaa;
-  border-radius: 3px; }
-
 input {
   line-height: 1.9rem;
   width: 60%;
   border-radius: 5px;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  box-shadow: 4px 4px 4px black; }
+
+.full {
+  padding-top: 10px;
+  font-family: Helvetica;
+  background-color: gold;
+  width: 500px;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  box-shadow: 4px 4px 4px blue;
+  margin-top: 200px;
+  height: 500px; }
+
+div:nth-child(even) {
+  background-color: blue; }
 
 button {
-  background-color: #aaa;
+  background-color: blue;
   color: white;
   border-radius: 5px;
   line-height: 1.5rem;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  margin-left: 50px;
+  box-shadow: 4px 4px 4px black; }
 
 #toDoList {
   margin-top: 10px;
   border-top: 1px solid #aaa; }
 
-.todoEntry {
-  background-color: #9ed3c0;
+.items {
+  background-color: gold;
   display: block;
   text-align: left;
   font-size: 1.2rem;
@@ -39,39 +48,45 @@ button {
 .completed {
   text-decoration: line-through; }
 
-div:nth-child(even) {
-  background-color: #77c4a8; }
-
-.container {
-  padding-top: 10px;
-  font-family: Helvetica;
-  background-color: #77c4a8;
-  width: 300px;
-  display: table;
-  margin: 0 auto;
-  text-align: center;
-  border: 1px solid #aaa;
-  border-radius: 3px; }
-
 input {
   line-height: 1.9rem;
   width: 60%;
   border-radius: 5px;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  box-shadow: 4px 4px 4px black; }
+
+.full {
+  padding-top: 10px;
+  font-family: Helvetica;
+  background-color: gold;
+  width: 500px;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  box-shadow: 4px 4px 4px blue;
+  margin-top: 200px;
+  height: 500px; }
+
+div:nth-child(even) {
+  background-color: blue; }
 
 button {
-  background-color: #aaa;
+  background-color: blue;
   color: white;
   border-radius: 5px;
   line-height: 1.5rem;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  margin-left: 50px;
+  box-shadow: 4px 4px 4px black; }
 
 #toDoList {
   margin-top: 10px;
   border-top: 1px solid #aaa; }
 
-.todoEntry {
-  background-color: #9ed3c0;
+.items {
+  background-color: gold;
   display: block;
   text-align: left;
   font-size: 1.2rem;
@@ -82,6 +97,3 @@ button {
 
 .completed {
   text-decoration: line-through; }
-
-div:nth-child(even) {
-  background-color: #77c4a8; }

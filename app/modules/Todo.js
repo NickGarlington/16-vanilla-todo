@@ -9,7 +9,7 @@ class Todo {
   render() {
     let toDoList = document.querySelector("#toDoList");
     let div = document.createElement("div");
-    div.classList.add("todoEntry");
+    div.classList.add("items");
     div.textContent = this.item;
     toDoList.appendChild(div);
 
@@ -23,13 +23,7 @@ class Todo {
     });
   }
 
-  // markComplete() {
-  //   let todoEntries = document.querySelectorAll(".todoEntry");
-  //   todoEntries.forEach(function(entry) {
-  // if (this.completed) {
-  //     todoEntry.classlist.add("completed");
-  //   }
-  // }
+
 }
 
 export default Todo;
